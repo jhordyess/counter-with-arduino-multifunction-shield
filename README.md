@@ -20,7 +20,7 @@ Buttons description:
 - VSCode with [remote containers](https://code.visualstudio.com/docs/remote/containers) (Docker container with Ubuntu)
 - [PlatformIO Core (CLI)](https://docs.platformio.org/en/latest/core/index.html#platformio-core-cli)
 
-## My usefull PlatformIO commands
+## My useful PlatformIO commands
 
 ```bash
 # Initialize project for Arduino Uno R3
@@ -29,7 +29,7 @@ pio project init --board uno --ide vscode
 pio run
 # Upload
 pio run -t upload
-# Connect to serial port monitor
+# Connect to the serial port monitor
 pio device monitor
 ```
 
