@@ -1,14 +1,16 @@
 # Counter with Arduino Multifunction Shield
 
-Simple counter with Arduino Multifunction Shield.
+Simple counter and random number generator with Arduino Multifunction Shield.
 
 ## Features
 
-Count from 0 to 9999 with its 4 digit 7 segment display.
+Counter from 0 to 9999 with its 7 segment display.
+Random number generator from 0 to 9999 with its 7 segment display.
 
 Buttons description:
 
-- 1st button -> Count
+- 1st button -> Count(short pressed)
+- 1st button -> Randomly generate(long pressed)
 - 2nd button -> Reset
 - 3rd button -> Lock
 
