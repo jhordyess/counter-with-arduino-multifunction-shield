@@ -35,5 +35,10 @@ pio run -t upload
 pio device monitor
 ```
 
+## License
+
+© 2022 [Jhordyess](https://github.com/jhordyess). Under the [MIT](https://choosealicense.com/licenses/mit/) license.
+
 ---
-@2022 Jhordyess
+
+Made with 💪 by [Jhordyess](https://www.jhordyess.com/)
