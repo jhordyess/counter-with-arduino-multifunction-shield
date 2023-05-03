@@ -14,26 +14,26 @@ Buttons description:
 - 2nd button -> Reset
 - 3rd button -> Lock
 
-## Dev Info
+## Requirements
 
-- Arduino Uno R3
+### Hardware
+
+To build this device, the following items are required:
+
+- Arduino microcontroller (Arduino UNO R3 was used)
 - Arduino Multifunction Shield (for Arduino Uno R3)
-- [Multi Function Shield Library](https://registry.platformio.org/libraries/hpsaturn/MultiFuncShield)
-- VSCode with [remote containers](https://code.visualstudio.com/docs/remote/containers) (Docker container with Ubuntu)
-- [PlatformIO Core (CLI)](https://docs.platformio.org/en/latest/core/index.html#platformio-core-cli)
 
-## My useful PlatformIO commands
+### Software
 
-```bash
-# Initialize project for Arduino Uno R3
-pio project init --board uno --ide vscode
-# Build
-pio run
-# Upload
-pio run -t upload
-# Connect to the serial port monitor
-pio device monitor
-```
+This project requires the following libraries to run:
+
+- [Multi Function Shield Library by Hpsaturn](https://registry.platformio.org/libraries/hpsaturn/MultiFuncShield)
+
+### Developer Notes
+
+- Developed using [Visual Studio Code with development containers](https://code.visualstudio.com/docs/devcontainers/containers)(optional). With custom [devcontainer](https://gist.github.com/jhordyess/07f126d2017bb99bcfca9cffc62162bc) configuration file.
+- Developed using the [PlatformIO extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide).
+- If you are running in Linux, you could also need the correct permission ```sudo chmod o+rw /dev/ttyACM0```.
 
 ## License
 
@@ -42,3 +42,4 @@ pio device monitor
 ---
 
 Made with 💪 by [Jhordyess](https://www.jhordyess.com/)
+
